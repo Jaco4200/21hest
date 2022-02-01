@@ -1,0 +1,118 @@
+.overskrift{
+  font-size: 56px;
+  font-family: sans-serif;
+  color: limegreen;
+}
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+.itema { grid-area: a;}
+
+.grid-container {
+  display: grid;
+  max-width: 100%;
+  grid-template-areas:
+  'header header header header header'
+  'menu main  main main right'
+  'footer footer footer footer footer'
+  'a a a a a';
+  grid-gap: 10px;
+  background-image: url(baggrund.svg);
+  background-repeat: none;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 50px 0;
+  font-size: 30px;
+}
+h1{
+  font-size: 22px;
+  font-family: sans-serif;
+  color: darkred;
+}
+p{
+  font-size: 24px;
+  font-family: sans-serif;
+  color: darkblue;
+}
+title{
+  font-size: 56px;
+
+}
+#boxe{
+  list-style: square;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.box {
+    background-color: lightgray;
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-style: dashed;
+    border-color: lightgreen;
+    border-width: 10px;
+    padding: 1.5em;
+}
+.box2 {
+      background-color: lightgray;
+      margin: 10px;
+      width: 130px;
+      height: 500px;
+      padding: 10px;
+      float: left;
+      box-sizing: border-box;
+      border-style: ridge;
+      border-color: lightgreen;
+      border-width: 10px;
+}
+.box3 {
+    background-color: lightgray;
+    margin: 10px;
+    width: auto;
+    height: 500px;
+    padding: 10px;
+    float: inherit;
+    box-sizing: border-box;
+    border-style: dashed;
+    border-color: lightgreen;
+    border-width: 10px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: darkblue;
+  }
+  .grid-container {
+    display: grid;
+    max-width: 100%;
+    grid-template-areas:
+    'header'
+    'menu'
+    'main'
+    'right'
+    'footer'
+    'a';
+    grid-gap: 10px;
+    background-image: url(baggrund.svg);
+    background-repeat: none;
+    padding: 10px;
+  }
+}
+@media only screen and (min-width: 601px), (max-with: 959px) {
+  body {
+    background-color: darkred;
+  }
+}
+@media only screen and (min-width: 960px) {
+  body {
+    background-color: yellow;
+  }
+}
