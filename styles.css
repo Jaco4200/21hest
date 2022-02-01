@@ -3,7 +3,26 @@ body {
   background-color: burlywood;
 }
 
+@font-face {
+  src: url(massive retailiation.ttf);
+  font-family: mass;
+}
+
 .h1{
   color: black;
   font: 16px;
+<<<<<<< HEAD
+  font-family: mass;
 }
+=======
+}
+
+.box1 {
+  border: red solid 3px;
+  padding: 20px;
+}
+
+.box2 {
+  background-image: url(test.jpg);
+}
+>>>>>>> 39df2af010a74fd64be06c545958bf864b01d499
