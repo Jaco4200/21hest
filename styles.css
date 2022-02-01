@@ -7,3 +7,12 @@
   color: black;
   font: 16px;
 }
+
+.box1 {
+  border: red solid 3px;
+  padding: 20px;
+}
+
+.box2 {
+  background-image: url(test.jpg);
+}
