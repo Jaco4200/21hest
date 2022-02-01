@@ -15,5 +15,8 @@ body {
 
 .box2 {
   background-image: url(test.jpg);
-  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px;
+  width: 100%;
 }
