@@ -15,4 +15,5 @@ body {
 
 .box2 {
   background-image: url(test.jpg);
+  height: 100%;
 }
