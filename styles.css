@@ -4,7 +4,7 @@ body {
 }
 
 @font-face {
-  src: url(massive retaliation.ttf);
+  src: url(massiveretaliation.ttf);
   font-family: mass;
 }
 
@@ -23,6 +23,7 @@ body {
   background-image: url(test.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  padding: 100px;
-  width: 100%;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
 }
