@@ -4,7 +4,11 @@ body {
 }
 
 @font-face {
+<<<<<<< HEAD
   src: url(massiveretaliation.ttf);
+=======
+  src: url(massive_retaliation.ttf);
+>>>>>>> ab6550d60a325e0c82d24e1605263124289057ce
   font-family: mass;
 }
 
